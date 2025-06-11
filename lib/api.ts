@@ -147,7 +147,7 @@ Format your response as a JSON array of recipe objects with this structure:
       headers: {
         'Authorization': `Bearer ${process.env.OPENROUTER_API_KEY}`,
         'Content-Type': 'application/json',
-        'HTTP-Referer': 'https://smartchef.netlify.app/',
+        'HTTP-Referer': 'https://smartchefai.netlify.app/',
         'X-Title': 'SmartChef Recipe Generator'
       },
       body: JSON.stringify({
